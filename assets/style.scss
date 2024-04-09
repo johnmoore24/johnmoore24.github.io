@@ -286,6 +286,9 @@ p > img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
+  display: flex;
+  align-items: center; /* This will vertically center align the children */
+  justify-content: space-between; /* Adjust as necessary to align items as required */
 
   @include mobile {
     text-align: center;
@@ -314,6 +317,10 @@ p > img {
 
 .site-info {
   float: left;
+  display: flex;
+  align-items: center; /* This will vertically center align the children inside .site-info */
+  justify-content: center; /* This will horizontally center align the children */
+  flex-direction: column; /* Stack children vertically */
 
   @include mobile {
     float: none;
