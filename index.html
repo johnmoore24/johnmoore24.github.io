@@ -8,14 +8,29 @@ layout: default
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>John Moore's Resume</title>
+  <style>
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap; /* Allows items to wrap onto the next line if not enough space */
+      align-items: center; /* Align items vertically */
+      justify-content: space-around; /* Distributes space around items */
+    }
+    .contact-info p {
+      margin: 0; /* Removes the default margin from paragraphs to tighten up spacing */
+      padding: 0 10px; /* Adds some padding around each paragraph for spacing */
+    }
+  </style>
+  
 </head>
 <body>
   <header>
     <h1>John Moore</h1>
-    <p>Email: <a href="mailto:jmoore24@uoregon.edu">jmoore24@uoregon.edu</a></p>
-    <p>Phone: 503-407-6462</p>
-    <p>GitHub: <a href="https://github.com/johnnycashpersonal" target="_blank">johnnycashpersonal</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/moore24/" target="_blank">moore24</a></p>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:jmoore24@uoregon.edu">jmoore24@uoregon.edu</a></p>
+      <p>Phone: 503-407-6462</p>
+      <p>GitHub: <a href="https://github.com/johnnycashpersonal" target="_blank">johnnycashpersonal</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/moore24/" target="_blank">moore24</a></p>
+    </div>
   </header>
 
   <section>
