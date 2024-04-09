@@ -13,20 +13,19 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
     {% include analytics_head.html %}
   </head>
-
   <body>
     <div id="bar"></div>
     <div class="wrapper-container">
       <div class="wrapper-masthead">
         <div class="container">
-          <header class="masthead clearfix">
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
-
-            <div class="site-info">
+          <header class="masthead clearfix" style="display: flex; align-items: center; justify-content: space-between;">
+            <a href="{{ site.baseurl }}/" class="site-avatar" style="flex-shrink: 0;">
+              <img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" />
+            </a>
+            <div class="site-info" style="flex-grow: 1;">
               <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             </div>
-
-            <nav>
+            <nav style="flex-shrink: 0;">
               <a href="{{ site.baseurl }}/">portfolio</a>
               <a href="{{ site.baseurl }}/about">about me</a>
               <a href="{{ site.baseurl }}/writing">writing</a>
