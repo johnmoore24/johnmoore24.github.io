@@ -8,14 +8,7 @@ permalink: /about/
 
 <span style="color: black;">I also love and enjoy almost all sports, fashion, home design, art, and spending time with my friends and family. I am a die-hard LeBron fan and follow basketball - mens and womens, college and professional - religiously. I also love almost all kinds of music, with some favorite genres including indie, rap, and pop.</span>
 
-<span style="color: black;">Some favorite artists include:</span>
-<span style="color: black;">- Kate Bush</span>
-<span style="color: black;">- Greta Van Fleet</span>
-<span style="color: black;">- Johnny Cash</span>
-<span style="color: black;">- Metro Boomin</span>
-<span style="color: black;">- Steve Lacy</span>
-<span style="color: black;">- Lauryn Hill</span>
-<span style="color: black;">- Stevie Wonder</span>
-<span style="color: black;">- The Temptations</span>
+<span style="color: black;">Some favorite artists include: Kate Bush, Greta Van Fleet, Johnny Cash, Metro Boomin, Steve Lacy, Lauryn Hill, Stevie Wonder, The Temptations, and many more I'm forgetting here.</span>
+
 
 <span style="color: black;">**Nice to meet you!**</span>
