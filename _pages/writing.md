@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Writing
+title: writing
 permalink: /writing/
 ---
 
